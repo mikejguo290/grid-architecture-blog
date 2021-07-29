@@ -32,14 +32,17 @@ img {
 image a is visible. although the item starts by taking up one cell of the grid 
 */
 .a {
-/* increase the number of cells image a takes up by specifying the area. */
-   /* form is of two coordinates. grid-area: row start/ col start / row end / col end */
-   grid-area: 1 / 3 / 5 / 13; 
+    /* increase the number of cells image a takes up by specifying the area. 
+    the order in which an element appears in html is irrelevant! I can just reposition them in css. */
+
+    /* form is of two coordinates. grid-area: row start/ col start / row end / col end */
+    grid-area: 1 / 3 / 5 / 13; 
 }
   
 .b {
-  
-  }
+    /* position title to overlap with image
+    grid-area: 2 / 2 / 3 / 5;
+}
   
 .c {
   
