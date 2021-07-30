@@ -40,12 +40,13 @@ image a is visible. although the item starts by taking up one cell of the grid
 }
   
 .b {
-    /* position title to overlap with image
+    /* position title to overlap with image */
     grid-area: 2 / 2 / 3 / 5;
 }
   
 .c {
-  
+    /* position subtitle to overlap with image */ 
+    grid-area: 4 / 1 / 5 / 4;
 }
   
 /* set 2: angles */
