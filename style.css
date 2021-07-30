@@ -30,7 +30,7 @@ img {
 */
 
 /* make all elements except images invisible. image elements are a, d, g, j, m. */ 
-.e, .f,  .h, .i, .k, .l, .n, .o {
+.h, .i, .k, .l, .n, .o {
     display: none;
   }
 
@@ -65,11 +65,15 @@ image a is visible. although the item starts by taking up one cell of the grid
 }
   
 .e {
-  
+    /* some of the heading is overlaid over the image. one row. start with two cols but need enough to display text properly. */
+    grid-row: 7 / 8;
+    grid-column: 5/ 10;
 }
   
 .f {
- 
+    /* if image is left, the subtitle is clear to the right of image. if image is right, subtitle starts on grid col 1. One row. Three cols*/
+    grid-row: 9/ 10;
+    grid-column: 7/ 10;
 }
   
 /* set 3: pattern play */
@@ -80,41 +84,47 @@ image a is visible. although the item starts by taking up one cell of the grid
 }
   
 .h {
-  
+    /* some of the heading is overlaid over the image. one row. start with two cols but need enough to display text properly. */
+    
 }
   
 .i {
+    /* if image is left, the subtitle is clear to the right of image. if image is right, subtitle starts on grid col 1. One row. Three cols*/
+
   
 }
   
 /* set 4: healing house */
-  /* img using dimensions from d.*/
 .j {
-  grid-row: 15 / 21;
-  grid-column: 1 / 7;
+    /* img using dimensions from d.*/
+    grid-row: 15 / 21;
+    grid-column: 1 / 7;
 }
   
 .k {
-  
-  }
+    /* some of the heading is overlaid over the image. one row. start with two cols but need enough to display text properly. */
+    }
   
 .l {
-  
+    /* if image is left, the subtitle is clear to the right of image. if image is right, subtitle starts on grid col 1. One row. Three cols*/
+
 }
   
 /* set 5: curved perfection */
-  /* img using dimensions from a. */
 .m {
-  grid-row: 21 / 25;
-  grid-column: 3 / 13;
+    /* img using dimensions from a. */
+    grid-row: 21 / 25;
+    grid-column: 3 / 13;
 }
   
 .n {
-  
+    /* some of the heading is overlaid over the image. one row. start with two cols but need enough to display text properly. */
+    
 }
   
 .o {
-  
+    /* if image is left, the subtitle is clear to the right of image. if image is right, subtitle starts on grid col 1. One row. Three cols*/
+
 }
   
 .headLine {
