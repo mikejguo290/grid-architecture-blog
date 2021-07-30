@@ -29,7 +29,7 @@ img {
 }
 */
 
-/* make all elements except images invisible. */ 
+/* make all elements except images invisible. image elements are a, d, g, j, m. */ 
 .e, .f,  .h, .i, .k, .l, .n, .o {
     display: none;
   }
@@ -44,7 +44,7 @@ image a is visible. although the item starts by taking up one cell of the grid
     the order in which an element appears in html is irrelevant! I can just reposition them in css. */
 
     /* form is of two coordinates. grid-area: row start/ col start / row end / col end */
-    grid-area: 1 / 3 / 5 / 13; 
+    grid-area: 1 / 3 / 5 / 13; /* 4 rows tall, 12 columns wide */
 }
   
 .b {
@@ -60,7 +60,8 @@ image a is visible. although the item starts by taking up one cell of the grid
 /* set 2: angles */
   
 .d {
-  
+    grid-row: 5 / 11;
+    grid-column: 1 / 7;
 }
   
 .e {
@@ -68,13 +69,14 @@ image a is visible. although the item starts by taking up one cell of the grid
 }
   
 .f {
-  
+ 
 }
   
 /* set 3: pattern play */
   
 .g {
-  
+    grid-row: 11 / 15;
+    grid-column: 3 / 13
 }
   
 .h {
@@ -86,9 +88,10 @@ image a is visible. although the item starts by taking up one cell of the grid
 }
   
 /* set 4: healing house */
-  
+  /* img using dimensions from d.*/
 .j {
-  
+  grid-row: 15 / 21;
+  grid-column: 1 / 7;
 }
   
 .k {
@@ -100,9 +103,10 @@ image a is visible. although the item starts by taking up one cell of the grid
 }
   
 /* set 5: curved perfection */
-  
+  /* img using dimensions from a. */
 .m {
-  
+  grid-row: 21 / 25;
+  grid-column: 3 / 13;
 }
   
 .n {
