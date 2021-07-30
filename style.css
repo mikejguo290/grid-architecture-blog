@@ -69,7 +69,7 @@ image a is visible. although the item starts by taking up one cell of the grid
 .e {
     /* some of the heading is overlaid over the image. one row. start with two cols but need enough to display text properly. */
     grid-row: 7 / 8;
-    grid-column: 5/ 10;
+    grid-column: 6/ 11;
 }
   
 .f {
